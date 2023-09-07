@@ -8,11 +8,28 @@ ol {
     list-style:none; 
     padding:0;
 }
-a {
-    text-decoration: none;
-    color: currentColor;
-}
+
 img {
 	display: block;
 	width: 100%;
+}
+
+/* app  */
+
+#app {
+    height: 100vh;
+    overflow: hidden;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+}
+.app__content{
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.debug .app__content,
+.debug .app__toolbar {
+    padding: 20px;
+    border: 2px solid black;
 }
