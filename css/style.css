@@ -28,6 +28,10 @@ img {
     overflow: hidden;
 }
 
+.app__toolbar{
+    background-color: #222222 ;
+}
+
 .debug .app__content,
 .debug .app__toolbar {
     padding: 20px;
